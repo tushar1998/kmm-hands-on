@@ -1,0 +1,6 @@
+query GetAllRoadsters {
+    roadster {
+        name
+        details
+    }
+}
