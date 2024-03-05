@@ -4,6 +4,22 @@ plugins {
     alias(libs.plugins.apolloRuntime)
 }
 
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        google()
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        google()
+    }
+}
+
 kotlin {
     androidTarget {
         compilations.all {
@@ -31,6 +47,7 @@ kotlin {
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.apollo.runtime)
             implementation(libs.apollo.api)
+            implementation(libs.kdfep.sample)
         }
 
         androidMain.dependencies {

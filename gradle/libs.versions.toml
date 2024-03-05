@@ -9,6 +9,7 @@ ktor = "2.3.8"
 coroutines = "1.7.3"
 apollo-runtime = "3.8.2"
 apollo-api = "3.8.2"
+kdfep-sample = "0.0.1"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -24,6 +25,7 @@ kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-c
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 apollo-runtime = { module = "com.apollographql.apollo3:apollo-runtime", version.ref = "apollo-runtime" }
 apollo-api = { module = "com.apollographql.apollo3:apollo-api", version.ref = "apollo-api" }
+kdfep-sample = { module = "com.raweng:kdfep-sample", version.ref = "kdfep-sample" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

@@ -61,6 +61,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                     GreetingView(roadster)
+                    GreetingView(Greeting().helloSDK())
                 }
             }
         }
